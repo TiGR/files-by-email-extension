@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="fbe@igor.tarasov"
+                   em:name="Files By Email Helper"
+                   em:version="0.3"
+                   em:creator="Igor Tarasov"
+                   em:description="Integrates Files By Email service into Firefox context menu"
+                   em:contributor="Alexander Antonov">
+    <em:targetApplication RDF:resource="rdf:#$nEgFw2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$nEgFw2"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="3.0.0.*" />
+</RDF:RDF>
